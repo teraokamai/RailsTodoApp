@@ -1,0 +1,18 @@
+<div style="width: 300px;">
+  <%= form_for(task) do |f| %>
+  <%= f.hidden_field :completed, value:true %>
+  <div>
+    <%= f.label :title %>
+    <%= f.text_field :title, size: 50 %>
+  </div>
+  <div>
+    <%= f.label :description %>
+    <%= f.text_area :description %>
+  </div>
+  <div>
+    <%= f.label :target_at %>
+    <%= f.text_field :target_at %>
+  </div>
+    <%= f.submit '保存' %>
+  <% end %>
+</div>
