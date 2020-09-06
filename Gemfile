@@ -29,7 +29,6 @@ gem 'bootsnap', '>= 1.4.2', require: false
 gem 'devise'
 
 gem 'pg'
-gem 'serviceworker-rails'
 
 gem 'jquery-rails'
 gem 'jquery-ui-rails'

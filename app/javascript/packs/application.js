@@ -7,7 +7,6 @@ require("@rails/ujs").start()
 require("@rails/activestorage").start()
 require("channels")
 require('jquery')
-require('serviceworker-companion')
 
 
 // safari起動させないための記述
